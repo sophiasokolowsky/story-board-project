@@ -8,25 +8,49 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Studio</title>
+    <title>Brown University Dorm Washing Machineso</title>
     <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" /> 
   </head>
 
   <!-- page content goes into <body> -->
   <body>
-    <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
-    </div>
-    <hr/>
-    <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
-    </div>
+    <header>
+      <div class="logo">DesignThatWorks</div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="observations.html">Observations</a></li>
+          <li><a href="#">Personas </a></li>
+          <li><a href="#">Storyboard</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="intro">
+      <h1>Fixing the Dorm Laundry Dilemma</h1>
+      <p>Exploring user experiences with Brown University dorm laundry machines. This project documents real-world interactions, frustrations, and potential improvements to enhance the user experience.</p>
+    </main>
+
+
+    <section class="previews">
+      <div class="preview">
+          <h2>Observations</h2>
+          <p>Discover key insights from real student interactions with dorm laundry machines.</p>
+          <a href="observations.html" class="button">Learn More</a>
+      </div>
+      <div class="preview">
+          <h2>Personas</h2>
+          <p>Meet our fictional representations of typical users, based on real interviews.</p>
+          <a href="personas.html" class="button">View Personas</a>
+      </div>
+      <div class="preview">
+          <h2>Storyboarding</h2>
+          <p>Follow a user&apos;s journey through a visual storyboard highlighting key moments.</p>
+          <a href="storyboard.html" class="button">See Storyboard</a>
+      </div>
+    </section>
+  
   </body>
 
 </html>
