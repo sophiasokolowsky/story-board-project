@@ -158,6 +158,17 @@ nav ul li a.active {
   opacity: 0.8;
 }
 
+.interface ul, .summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.interface li, .summary li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
 .interviews {
   margin-top: 50px;
   text-align: left;
@@ -290,6 +301,8 @@ nav ul li a.active {
   font-size: 16px;
   opacity: 0.9;
 }
+
+/*storyboard page*/
 
 .storyboard {
   text-align: center;
